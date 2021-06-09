@@ -1,2 +1,2 @@
 # Booking-hotels-React
-Created with CodeSandbox
+A booking hotels app made with React.js
