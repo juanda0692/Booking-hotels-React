@@ -1,0 +1,57 @@
+.section_filter {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.75rem 0;
+  background: linear-gradient(
+    95.2deg,
+    rgba(173, 252, 234, 1) 26.8%,
+    rgba(192, 229, 246, 1) 64%
+  );
+}
+
+.filter_label {
+  margin: 0.25rem 0;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(44, 163, 188, 1);
+  height: 1.5rem;
+}
+
+.filter_input {
+  border: none;
+  text-align: center;
+  outline: none;
+  height: 1.3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.icon {
+  margin: 0 0.5rem;
+  color: #808080;
+}
+
+.filter_trash-button {
+  border-radius: 0.3rem;
+  background-color: #e92020;
+  height: 1.5rem;
+  border: none;
+  font-weight: 700;
+  padding-right: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.filter_trash-button:hover {
+  background-color: #c20f0f;
+}

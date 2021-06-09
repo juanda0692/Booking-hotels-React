@@ -1,0 +1,41 @@
+.header {
+  height: 10rem;
+  background: rgb(58, 134, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 134, 180, 1) 0%,
+    rgba(44, 163, 188, 1) 100%
+  );
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.header_hotels-title {
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  font-size: 2.2em;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.31);
+}
+
+@media (max-width: 37.5rem) {
+  /* 600px */
+  .header_hotels-title {
+    font-size: 1.7em;
+  }
+}
+
+.header_hotels-icon {
+  color: #ffffff;
+  margin-left: 0.7rem;
+}
+
+.header_hotels-text {
+  padding-top: 0.5rem;
+  font-weight: 700;
+  color: #f8f8f8;
+}

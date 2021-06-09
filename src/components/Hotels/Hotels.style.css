@@ -1,0 +1,101 @@
+.card_hotels {
+  max-width: 24rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin: 0.5rem 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 37.5rem) {
+  /* 600px */
+  .card_hotels {
+    max-width: 28rem;
+  }
+}
+
+.card_hotels > img {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card_hotels-information {
+  padding: 1rem;
+}
+
+.hotels_name {
+  letter-spacing: 0.02rem;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.hotels_information {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+.card_hotels-label {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  background-color: rgba(58, 134, 180, 1);
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  width: max-content;
+  font-weight: 300;
+  margin: 0.5rem 0.5rem 0 0;
+  padding-right: 0.5rem;
+}
+
+.card_hotels-label-icon {
+  display: flex;
+  align-items: center;
+  background-color: rgba(173, 252, 234, 1);
+  border-radius: 0.25rem 0 0 0.25rem;
+  height: 1.5rem;
+  color: #808080;
+  padding: 0 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.card_hotels-label-container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card_hotels-price-icon {
+  margin-left: 0.5rem;
+}
+
+.card_hotels-reserve-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  background: rgba(173, 252, 234, 1);
+  transition: 0.2s ease-in;
+  font-family: "Roboto", sans-serif;
+}
+
+.card_hotels-reserve-button:hover {
+  background: rgba(44, 163, 188, 1);
+  color: #ffffff;
+}
+
+.card_hotels-reserve-icon {
+  margin-right: 0.5rem;
+}

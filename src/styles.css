@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  width: 100%;
+  max-width: 96rem; /* 1536px */
+}
+
+.section_hotels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+/* Not found results styles */
+.App_not-results {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.App_not-results > h2 {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.App_not-results-icon {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 37.5rem) {
+  /* 600px */
+  .section_hotels {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 37.56rem) and (max-width: 64rem) {
+  /* 601px - 1024px */
+  .section_hotels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 96rem) {
+  /* 1536px */
+  .App {
+    margin: 0 auto;
+  }
+}
